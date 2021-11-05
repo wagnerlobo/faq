@@ -40,3 +40,29 @@ main {
     width: 50%;
     margin: 50px 0;
 }
+.faq .conteudo {
+
+    width: 40%;
+    padding-bottom: 20px;
+
+}
+.faq .conteudo h1 {
+
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.faq .conteudo .itens {
+
+    list-style-type: none;
+}
+.faq .conteudo .itens .item {
+
+    cursor: pointer;
+    background-image: url(icone-seta-pra-baixo.png);
+    background-repeat: no-repeat;
+    background-position: top 8px right 0;
+    background-size: 12px;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0;
+}
